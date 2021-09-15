@@ -1,0 +1,63 @@
+/* input:checked + .teste{
+    color: red;
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(83, 83, 83);
+    display: grid;
+    place-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a :hover{
+    color: tomato;
+}
+
+a :active{
+    color: rgb(173, 55, 35);
+}
+
+.main-container{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    border-radius: 10px;
+    border: solid 1px rgb(212, 212, 212);
+}
+
+.header{
+    border-bottom: solid 1px rgb(212, 212, 212);
+}
+
+.header ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header li{
+    list-style-type: none;
+    margin: 0 20px;
+    padding: 20px 0px;
+    
+}
+
+.conteudo{
+    padding: 20px 20px;
+}
+
+.conteudo:not(:target){
+    display: none;
+}
+
