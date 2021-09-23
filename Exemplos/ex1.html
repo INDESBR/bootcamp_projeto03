@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            flex-direction: column;
+            height: 100vh;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu {
+            margin-bottom: 20px;
+        }
+
+        .container {
+            background-color: azure;
+            width: 400px;
+            height: 300px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        /*
+        .desativar:not(target) {
+            display: none;
+        }
+
+        .desativar:target {
+            display: block;
+        }
+        */
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="menu">
+        <a href="#um" class="on">On</a>
+        <a href="#dois" class="off">Off</a>
+    </div>
+    <div class="container">
+
+        <div class="desativar um" id="um">Texto 1 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi est mollitia animi molestiae, ut voluptatibus eum sed iusto veniam exercitationem, nobis cupiditate, molestias nihil repellendus quis neque possimus fugit tenetur!</div>
+        <br>
+        <div class="desativar dois" id="dois">Texto 2 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique labore facere excepturi quis hic. Fugiat, dignissimos necessitatibus distinctio quas, voluptates ipsa sunt beatae quis quod id consequuntur, aperiam earum excepturi.</div>
+
+    </div>
+</body>
+
+</html>
